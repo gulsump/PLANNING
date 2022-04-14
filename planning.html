@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PLANNING APP</title>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+
+
+  background-image: url("https://www.callcentrehelper.com/images/stories/2019/08/plan-dice-760.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+  #content {
+            height: 200px;
+            width: 400px;
+            /*background: lightgreen ;*/
+            margin-top:10px;
+            margin-left: 200px ;
+
+      
+
+        }
+
+
+</style>
+
+<script src="random.js" defer></script>
+</head>
+<meta charset="UTF-8">
+
+
+
+<body>
+
+<div class="bg"> 
+<div id ="content"  >
+	
+															<form action="islem.php" method="POST">
+															
+																<h1>PLANNING</h1>
+
+																
+
+
+																<div class="row">
+																ID:
+																<br>
+
+																<body onload="setRand()">
+																<input type="text" required="" name="id" id="rand">
+																</body>
+																<br> <br>
+
+																</div>
+
+																DAY:
+											                    <br>
+											                    <select id="day" name="day">
+    															<option>1</option>
+    															<option>2</option>
+    															<option>3</option>
+    															<option>4</option>
+    															<option>5 </option>
+    															<option>6</option>
+    															<option>7</option>
+    															<option>8</option>
+    															<option>9</option>
+    															<option>10 </option>
+    															<option>11</option>
+    															<option>12</option>
+    															<option>13</option>
+    															<option>14</option>
+    															<option>15 </option>
+    															<option>16</option>
+    															<option>17</option>
+    															<option>18</option>
+    															<option>19</option>
+    															<option>20</option>
+    															<option>21</option>
+    															<option>22</option>
+    															<option>23</option>
+    															<option>24</option>
+    															<option>25</option>
+    															<option>26</option>
+    															<option>27</option>
+    															<option>28</option>
+    															<option>29</option>
+    															<option>30</option>
+    															<option>31</option>
+    															
+																</select>
+
+																 <br> <br>
+       
+
+
+																MONTH :
+											                    <br>
+											                    <select id="month" name="month">
+    															<option>JANUARY</option>
+    															<option>FEBRUARY</option>
+    															<option>MARCH</option>
+    															<option>APRIL</option>
+    															<option>MAY </option>
+    															<option>JUN</option>
+    															<option>JULY</option>
+    															<option>AUGUST</option>
+    															<option>SEPTEMBER</option>
+    															<option>OCTOBER </option>
+    															<option>NOVEMBER</option>
+    															<option>DECEMBER</option>
+    															
+																</select>
+																<br> <br>
+
+																YEAR:
+																<br>
+																<input type="integer" required="" name="year" >
+																<br> <br>
+
+																TIME:
+																<br>
+																<input type="float" required="" name="time" >
+																<br> <br>
+
+																EVENT:
+																<br>
+																<input type="text" required="" name="event" size="50">
+																<br> <br>
+											                    
+																<input type="submit" name="ekle" value="Submit"> 
+														
+																<input type="submit" name="kaydet" value="Edıt" />
+																<input type="reset" name="" value="Reset">
+																
+																
+																<br> <br><br><br>
+
+																<a href="http://localhost/Planning/silmeliste.php" target="_blank"><b> LIST and DELETE </b></a>
+
+
+
+															</form>
+
+															
+
+															</div>
+															</div>
+															</body>
+															</html>															
